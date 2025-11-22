@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Vernou.Librairies.Example.Tests/Vernou.Librairies.Example.Tests.csproj" />
+  <Project Path="Vernou.Librairies.Example/Vernou.Librairies.Example.csproj" />
+</Solution>
