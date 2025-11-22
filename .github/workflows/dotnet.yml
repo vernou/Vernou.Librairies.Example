@@ -10,7 +10,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build and test:
+  ci:
+    name: Build and Test
     runs-on: ubuntu-latest
     defaults:
       run:
