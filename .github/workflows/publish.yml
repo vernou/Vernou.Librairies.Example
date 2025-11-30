@@ -28,7 +28,7 @@ jobs:
       uses: NuGet/login@v1
       id: login
       with:
-        user: ${{ secrets.NUGET_USER }}
+        user: vernou
     - name: dotnet nuget push
       run: |
         dotnet nuget push artifacts/Vernou.Librairies.Example.${VERSION}.nupkg \
